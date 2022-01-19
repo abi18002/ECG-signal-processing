@@ -1,0 +1,11 @@
+Source: record ecgiddb/Person_01/rec_2
+val has 2 rows (signals) and 10000 columns (samples/signal)
+Duration:     0:20
+Sampling frequency: 500 Hz  Sampling interval: 0.002 sec
+Row	Signal	Gain	Base	Units
+1	ECG I	200	0	mV
+2	ECG I filtered	200	0	mV
+
+To convert from raw units to the physical units shown
+above, call the 'rdmat.m' function from the wfdb-matlab
+toolbox: https://physionet.org/physiotools/matlab/wfdb-app-matlab/
